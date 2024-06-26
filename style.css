@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'Olympic Sans';
+  src: url("OlympicSans.ttf") format('ttf');
+  src: url("OlympicSans.eot") format('eot');
+  src: url("OlympicSans.woff") format('woff');
+  src: url("OlympicSans.woff2") format('woff2');
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Roboto", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("olimpiadas.png");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("paris.webp");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("paralimpiadas.webp");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("italia.jpg");
+  min-height: 400px;
+}
+
+.bgimg-5 {
+  background-image: url("https://olimpiadadoexercito.eb.mil.br/images/banners/banner_cde.webp");
+  min-height: 400px;
+}
+
+.bgimg-6 {
+  background-image: url('obmep.png');
+  min-height: 400px;
+}
+
+.bgimg-7 {
+  background-image: url("indigenas.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-family: "Olympic Sans", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 15px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Olympic Sans", sans-serif;
+  color: #111;
+}
+
+a.button:hover {
+  background-color: #777;
+  transition: 0.3s;
+}
+
+a.button {
+  padding: 10px 40px;
+  background-color: #111;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+div.button {
+  margin-top: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  padding: 10x;
+  font-size: 25px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #111;
+  padding: 50px 80px;
+}
+
+.footer h1 {
+  margin-bottom: 50px;
+  font-size: 22px;
+}
+
+.footer p {
+  padding-bottom: 25px;
+  padding-top: 25px;
+  border-bottom: 1px solid white;
+}
